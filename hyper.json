@@ -1,0 +1,522 @@
+{
+  "title": "Hyper shortcuts",
+  "rules": [
+    {
+      "description": "Hyper + 1 → Open Google",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open https://www.google.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + 2 → Open ChatGPT",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open https://chatgpt.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + 3 → Open DeepSeek Chat",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open https://chat.deepseek.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + F → Open Finder",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a Finder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + T → Open Terminal",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a Terminal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + C → Open Calendar",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a Calendar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + L → Lock screen",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": ["left_control", "left_command"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + Esc → Open Activity Monitor",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Activity Monitor'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + . → Open Visual Studio Code",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Visual Studio Code'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + D → Insert current date and time (YYYY-MM-DD_HH-MM-SS)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "d",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "date '+%Y-%m-%d_%H-%M-%S' | pbcopy"
+            },
+            {
+              "key_code": "v",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + N → Open Notes",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a Notes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + ` → Open System Settings",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'System Settings'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + I → Insert UUID",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "uuidgen | tr 'A-Z' 'a-z' | pbcopy"
+            },
+            {
+              "key_code": "v",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + B → Open Brave Browser",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Brave Browser'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + 4 → Open Yahoo Mail",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "4",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open https://mail.yahoo.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + O → Open Obsidian",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Obsidian'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + G → Open Google Chrome",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Google Chrome'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + 5 → GitHub",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "5",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open https://github.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + J → Open Joplin",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a Joplin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + E → Ente Authenticator",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "e",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift",
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Ente Auth'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Hyper + F4 → Search google highlighted text",
+      "manipulators": [
+      {
+        "type": "basic",
+        "from": {
+        "key_code": "f4",
+        "modifiers": {
+          "mandatory": [
+          "left_control",
+          "left_option",
+          "left_shift",
+          "left_command"
+          ]
+        }
+        },
+        "to": [
+        {
+          "key_code": "c",
+          "modifiers": ["left_command"]
+        },
+        {
+          "shell_command": "open \"https://www.google.com/search?q=$(pbpaste | sed 's/ /+/g')\""
+        }
+        ]
+      }
+      ]
+    }
+  ]
+}
