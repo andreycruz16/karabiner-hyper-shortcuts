@@ -1,5 +1,7 @@
 # Karabiner Hyper Shortcuts
 
+**Location:** `/Users/markandrey/.config/karabiner/assets/complex_modifications/`
+
 A set of [Karabiner-Elements](https://karabiner-elements.pqrs.org/) complex modifications that turn **Hyper** (⌃⌥⇧⌘) into a powerful application launcher and utility key.
 
 ## What is Hyper?
